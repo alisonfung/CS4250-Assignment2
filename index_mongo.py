@@ -1,13 +1,13 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: Alison Fung
+# FILENAME: index_mongo.py
+# SPECIFICATION: Provides an interface to perform operations on a database through the Python Mongo driver.
 # FOR: CS 4250- Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 2 hours
 #-----------------------------------------------------------*/
 
 from pymongo import MongoClient  # import mongo client to connect
-from db_connection_mongo_solution import *
+from db_connection_mongo import *
 
 if __name__ == '__main__':
 
